@@ -84,10 +84,10 @@ Bracket delimiters, also called block delimiters, region delimiters, or balanced
 | [ ]     | Square brackets; commonly used to denote a subscript |
 | < >     | [Angle brackets](https://en.wikipedia.org/wiki/Bracket#Angle_brackets) |
 | " "     | Double [quote](https://en.wikipedia.org/wiki/Quotation_mark); commonly used to denote a [string literal](https://en.wikipedia.org/wiki/String_literal) |
-| Zelle 2,1     | Zelle 2,2     |
-| Zelle 1,1     | Zelle 1,2     |
-| Zelle 2,1     | Zelle 2,2     |
-| Zelle 1,1     | Zelle 1,2     |
+| ' '     | Single quote; commonly used to denote a string literal or [character literal](https://en.wikipedia.org/wiki/Character_literal) |
+| <? ?>   | Used in [XML](https://en.wikipedia.org/wiki/XML) to denote a [processing instruction](https://en.wikipedia.org/wiki/Processing_Instruction) |
+| /* */   | Used in many [programming languages]}(https://en.wikipedia.org/wiki/Programming_language) to denote a [comment](https://en.wikipedia.org/wiki/Comment_(computer_programming)) |
+| <% %>   | Used in some [web templates](https://en.wikipedia.org/wiki/Web_template_system) to specify a language boundary |
 
 
 

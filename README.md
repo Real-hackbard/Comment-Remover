@@ -93,10 +93,19 @@ Bracket delimiters, also called block delimiters, region delimiters, or balanced
 </br>
 
 ### How can I integrate my own programming language:
+To add an additional programming language, a few steps are required.
+* Create a *.pas file named, for example, ```VisualBasic.pas``` and renames the unit.
+* Then the procedure and the function must be renamed.
+```pascal
+procedure PAS_SetProgressionPython(Eventer:TPurifyEvent);
+   function PAS_NoCommentsPython(RE:TStrings):real;
 
+.. in ..
 
-
-
+procedure PAS_SetProgressionVisualBasic(Eventer:TPurifyEvent);
+   function PAS_NoCommentsVisualBasic(RE:TStrings):real;
+```
+Which must be called in the main unit
 
 
 

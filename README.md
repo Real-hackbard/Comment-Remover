@@ -97,8 +97,8 @@ To add an additional programming language, a few steps are required.
 * Create a *.pas file named, for example, ```VisualBasic.pas``` and renames the unit.
 * Then the procedure and the function must be renamed.
 ```pascal
-procedure PAS_SetProgressionPython(Eventer:TPurifyEvent);
-   function PAS_NoCommentsPython(RE:TStrings):real;
+procedure PAS_SetProgression(Eventer:TPurifyEvent);
+   function PAS_NoComments(RE:TStrings):real;
 
 .. in ..
 

@@ -46,5 +46,27 @@ Comments can explain the author's intent – why the code is as it is. Some cont
 * "Don't document bad code – rewrite it."
 * "Good comments don't repeat the code or explain it. They clarify its intent. Comments should explain, at a higher level of abstraction than the code, what you're trying to do."
 
+### Line comment for Languages
+
+| Symbol | Languages | 
+| :-----------: | :-----------: |
+| C     | [Fortran](https://en.wikipedia.org/wiki/Fortran) I to Fortran 77 (C in column 1) |
+| Rem   | [BASIC](https://en.wikipedia.org/wiki/BASIC), [Batch files](https://en.wikipedia.org/wiki/Batch_file), [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic) |
+| ::    | [Batch files](https://en.wikipedia.org/wiki/Batch_file), [COMMAND.COM](https://en.wikipedia.org/wiki/COMMAND.COM), [cmd.exe](https://en.wikipedia.org/wiki/Cmd.exe) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+| C     | Fortran I to Fortran 77 (C in column 1) |
+
 
 

@@ -148,7 +148,7 @@ Which must be called in the main unit
 ### How can I change the highlight colors:
 To change the highlight colors, open the ```Highlight.pas``` file and modify the following sections.
 
-In these sections, you can define the symbols or commands for highlighting.
+In these sections, you can define the symbols or commands for highlighting.  
 Note: When adding or removing commands, the loop in the lower part of the code must add up to the same number of commands.
 
 ```pascal
@@ -168,3 +168,33 @@ Note: When adding or removing commands, the loop in the lower part of the code m
           'while','external','stdcall','do','until','array','of',
           'in','shr','shl','cos','div');
 ```
+
+Adjust this loop with the number
+```pascal
+// Highlight all functions defined as arrays.
+  // When adding or removing words,
+  // the number of loops must be adjusted.
+  for i := 0 to 44 do
+  begin
+    with RichE do
+    begin
+      RichE.Lines.BeginUpdate;
+      StartPos := 0;
+      ToEnd := Length(Text) - StartPos;
+      FoundAt := FindText(CodeC2[i], StartPos, ToEnd, [stWholeWord]);
+      while (FoundAt <> -1) do
+      begin
+        SelStart := FoundAt;
+        SelLength := Length(CodeC2[i]);
+        SelAttributes.Color := C3;
+        SelAttributes.Style := [fsBold];
+        StartPos := FoundAt + Length(CodeC2[i]);
+        FoundAt := FindText(CodeC2[i], StartPos, ToEnd, [stWholeWord]);
+      end;
+      RichE.Lines.EndUpdate;
+    end;
+  end;
+```
+
+Then your style name must be entered in the ComboBox of the main unit to call up the colors.  
+Back in the highlight unit, the name and colors must then be entered

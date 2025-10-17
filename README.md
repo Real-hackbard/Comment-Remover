@@ -54,7 +54,7 @@ Comments can explain the author's intent – why the code is as it is. Some cont
 | Rem   | [BASIC](https://en.wikipedia.org/wiki/BASIC), [Batch files](https://en.wikipedia.org/wiki/Batch_file), [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic) |
 | ::    | [Batch files](https://en.wikipedia.org/wiki/Batch_file), [COMMAND.COM](https://en.wikipedia.org/wiki/COMMAND.COM), [cmd.exe](https://en.wikipedia.org/wiki/Cmd.exe) |
 | NB.   | [J;](https://en.wikipedia.org/wiki/J_(programming_language)) from the (historically) common abbreviation [Nota bene](https://en.wikipedia.org/wiki/Nota_bene), the Latin for "note well". |
-| C     | Fortran I to Fortran 77 (C in column 1) |
+| ⍝     | [APL;](https://en.wikipedia.org/wiki/APL_(programming_language)) the mnemonic is that the glyph (jot overstruck with shoe-down) resembles a desk lamp, and hence "illuminates" the foregoing. |
 | C     | Fortran I to Fortran 77 (C in column 1) |
 | C     | Fortran I to Fortran 77 (C in column 1) |
 | C     | Fortran I to Fortran 77 (C in column 1) |

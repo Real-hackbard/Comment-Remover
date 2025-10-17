@@ -33,10 +33,16 @@ Most languages support multi-line block (a.k.a. stream) and/or single line comme
 
 ###  C++ Example:
 
-<img width="500" height="415" alt="C_example" src="https://github.com/user-attachments/assets/17bd40dc-6599-4d1b-9590-79496ceb3298" />
+</br>
+
 
 </br>
 
+
+Comments can explain the author's intent – why the code is as it is. Some contend that describing what the code does is superfluous. The need to explain the what is a sign that it is too complex and should be re-worked.
+
+* "Don't document bad code – rewrite it."
+* "Good comments don't repeat the code or explain it. They clarify its intent. Comments should explain, at a higher level of abstraction than the code, what you're trying to do."
 
 
 

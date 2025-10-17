@@ -63,10 +63,9 @@ Comments can explain the author's intent – why the code is as it is. Some cont
 | ;     | [Most assembly languages](https://en.wikipedia.org/wiki/Assembly_language), [AutoHotkey](https://en.wikipedia.org/wiki/AutoHotkey), [AutoIt](https://en.wikipedia.org/wiki/AutoIt), [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)), [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp), [Clojure](https://en.wikipedia.org/wiki/Clojure), [PGN](https://en.wikipedia.org/wiki/Portable_Game_Notation), [Rebol](https://en.wikipedia.org/wiki/Rebol), [Red](https://en.wikipedia.org/wiki/Red_(programming_language)), [Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language)) |
 | --    | [Euphoria](https://en.wikipedia.org/wiki/Euphoria_(programming_language)), [Haskell](https://en.wikipedia.org/wiki/Haskell), [SQL](https://en.wikipedia.org/wiki/SQL), [Ada](https://en.wikipedia.org/wiki/Ada_(programming_language)), [AppleScript](https://en.wikipedia.org/wiki/AppleScript), [Eiffel](https://en.wikipedia.org/wiki/Eiffel_(programming_language)), [Lua](https://en.wikipedia.org/wiki/Lua), [VHDL](https://en.wikipedia.org/wiki/VHDL), [SGML](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language), [PureScript](https://en.wikipedia.org/wiki/PureScript), [Elm](https://en.wikipedia.org/wiki/Elm_(programming_language)) |
 | *     | [Assembler S/360](https://en.wikipedia.org/wiki/IBM_Basic_assembly_language_and_successors) (* in column 1), [COBOL](https://en.wikipedia.org/wiki/COBOL) I to COBOL 85, [PAW](https://en.wikipedia.org/wiki/Physics_Analysis_Workstation), Fortran IV to Fortran 77 (* in column 1), Pick Basic, [GAMS](https://en.wikipedia.org/wiki/General_algebraic_modeling_system) (* in column 1) |
-| C     | Fortran I to Fortran 77 (C in column 1) |
-| C     | Fortran I to Fortran 77 (C in column 1) |
-| C     | Fortran I to Fortran 77 (C in column 1) |
-| C     | Fortran I to Fortran 77 (C in column 1) |
+| "     | [Vimscript](https://en.wikipedia.org/wiki/Vimscript), [ABAP](https://en.wikipedia.org/wiki/ABAP) |
+| \     | [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language)) |
+| *>    | [COBOL 90](https://en.wikipedia.org/wiki/COBOL) |
 
 
 

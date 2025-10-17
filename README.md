@@ -221,3 +221,127 @@ Back in the highlight unit, the name and colors must then be entered
   Gray := clGray;     // Comment Color
   end
 ```
+
+</br>
+
+### Here are some examples of how to integrate the characters:
+```pascal
+// Coloring all comments that are behind a "//" up to the line break
+  Startpos := 0;
+  with RichE do
+  begin
+    RichE.Lines.BeginUpdate;
+    FoundAt := FindText('//', StartPos, Length(Text), []);
+    while FoundAt <> -1 do
+    begin
+      SelStart := FoundAt;
+      Startpos := FoundAt+1;
+      FoundAt := FindText(#13#10, StartPos, Length(Text), []);
+      if FoundAt <> -1 then
+      begin
+        SelLength := (FoundAt - selstart)+1;
+        SelAttributes.Style := [];
+        SelAttributes.Color := clGray;
+        StartPos := FoundAt+1;
+        FoundAt := FindText('//', StartPos, Length(Text), []);
+      end;
+    end;
+    RichE.Lines.EndUpdate;
+  end;
+
+  // Color all characters inside the curly bracket
+  Startpos := 0;
+  with RichE do
+  begin
+    RichE.Lines.BeginUpdate;
+    FoundAt := FindText('{', StartPos, Length(Text), []);
+    while FoundAt <> -1 do
+    begin
+      SelStart := FoundAt;
+      Startpos := FoundAt+1;
+      FoundAt := FindText('}', StartPos, Length(Text), []);
+      if FoundAt <> -1 then
+      begin
+        SelLength := (FoundAt - selstart)+1;
+        SelAttributes.Style := [];
+        SelAttributes.Color := strC1;
+        StartPos := FoundAt+1;
+        FoundAt := FindText('{', StartPos, Length(Text), []);
+      end;
+    end;
+    RichE.Lines.EndUpdate;
+  end;
+
+  // Coloring all strings within the commercial
+  Startpos := 0;
+  with RichE do
+  begin
+    RichE.Lines.BeginUpdate;
+    FoundAt := FindText('''', StartPos, Length(Text), []);
+    while FoundAt <> -1 do
+    begin
+      SelStart := FoundAt;
+      Startpos := FoundAt+1;
+      FoundAt := FindText('''', StartPos, Length(Text), []);
+      if FoundAt <> -1 then
+      begin
+        SelLength := (FoundAt - selstart)+1;
+        SelAttributes.Style := [];
+        SelAttributes.Color := strC1;
+        StartPos := FoundAt+1;
+        FoundAt := FindText('''', StartPos, Length(Text), []);
+      end;
+    end;
+    RichE.Lines.EndUpdate;
+  end;
+
+  // Color all strings within the brackets and star
+  Startpos := 0;
+  with RichE do
+  begin
+    RichE.Lines.BeginUpdate;
+    FoundAt := FindText('(*', StartPos, Length(Text), []);
+    while FoundAt <> -1 do
+    begin
+      SelStart := FoundAt;
+      Startpos := FoundAt+1;
+      FoundAt := FindText('*)', StartPos, Length(Text), []);
+      if FoundAt <> -1 then
+      begin
+        SelLength := (FoundAt - selstart)+1;
+        SelAttributes.Style := [];
+        SelAttributes.Color := clGray;
+        StartPos := FoundAt+1;
+        FoundAt := FindText('(*', StartPos, Length(Text), []);
+      end;
+    end;
+    RichE.Lines.EndUpdate;
+  end;
+
+  // Color all strings within the corner brackets
+  Startpos := 0;
+  with RichE do
+  begin
+    RichE.Lines.BeginUpdate;
+    FoundAt := FindText('[', StartPos, Length(Text), []);
+    while FoundAt <> -1 do
+    begin
+      SelStart := FoundAt;
+      Startpos := FoundAt+1;
+      FoundAt := FindText(']', StartPos, Length(Text), []);
+      if FoundAt <> -1 then
+      begin
+        SelLength := (FoundAt - selstart)+1;
+        SelAttributes.Style := [];
+        SelAttributes.Color := strC;
+        StartPos := FoundAt+1;
+        FoundAt := FindText('[', StartPos, Length(Text), []);
+      end;
+    end;
+    RichE.Lines.EndUpdate;
+  end;
+```
+
+</br>
+
+### Save everything and run.

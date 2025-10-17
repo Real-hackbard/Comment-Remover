@@ -107,5 +107,38 @@ procedure PAS_SetProgressionVisualBasic(Eventer:TPurifyEvent);
 ```
 Which must be called in the main unit
 
+* Then the comments must be added to the characters that should be deleted
+```pascal
+// Here everything in the area of ​​the bracket with a star is deleted
+          if L2='(*' then
+            begin
+              r:=L1;
+              Comment:=true;
+              Key:=true;
+              Continue;
+            end;
 
+          if Key then
+            L2:=Copy(s,x-1,2);
+          if (Comment) and (L2='*)') then
+            begin
+              Comment:=false;
+              Key:=false;
+              r:=L1;
+              Continue;
+            end;
 
+// Here everything after the specified string is deleted, in this case //
+          if L2='//' then
+            begin
+              CmtLine:=true;
+              r:=L1;
+              Continue;
+            end;
+```
+
+* The command must then be renamed and executeted in the main unit.
+```pascal
+PAS_SetProgressionVisualBasic(Progression);
+      PerCent := PAS_NoCommentsVisualBasic(RichEdit1.Lines);
+```

@@ -26,3 +26,17 @@ The flexibility supported by comments allows for a wide degree of content style 
 ![Comment Remover Pic](https://github.com/user-attachments/assets/41542dcc-e663-4434-8d20-e52cc3872123)
 
 </br>
+
+Support for code comments is defined by each programming language. The features differ by language, but there are several common attributes that apply throughout.
+
+Most languages support multi-line block (a.k.a. stream) and/or single line comments. A block comment is [delimited](https://en.wikipedia.org/wiki/Delimiter#Bracket_delimiters) with text that marks the start and end of comment text. It can span multiple lines or occupy any part of a line. Some languages allow block comments to be recursively nested inside one another, but others do not. A line comment ends at the end of the text line. In modern languages, a line comment starts with a delimiter but some older languages designate a column at which subsequent text is considered comment. Many languages support both block and line comments – using different delimiters for each. For example, C, C++ and their many derivatives support block comments delimited by /* and */ and line comments delimited by //. Other languages support only one type of comment.
+
+###  C++ Example:
+
+<img width="500" height="415" alt="C_example" src="https://github.com/user-attachments/assets/17bd40dc-6599-4d1b-9590-79496ceb3298" />
+
+</br>
+
+
+
+

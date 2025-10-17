@@ -80,10 +80,10 @@ Bracket delimiters, also called block delimiters, region delimiters, or balanced
 | Delimiters | Description |
 | :-----------: | :------------ |
 | ( )     | [Parentheses](https://en.wikipedia.org/wiki/Bracket#Parentheses); [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) [code](https://en.wikipedia.org/wiki/Source_code) is cited as recognizable by its use of parentheses |
-| Zelle 2,1     | Zelle 2,2     |
-| Zelle 1,1     | Zelle 1,2     |
-| Zelle 2,1     | Zelle 2,2     |
-| Zelle 1,1     | Zelle 1,2     |
+| { }     | Braces; also called [curly brackets](https://en.wikipedia.org/wiki/Bracket#Curly_brackets) |
+| [ ]     | Square brackets; commonly used to denote a subscript |
+| < >     | [Angle brackets](https://en.wikipedia.org/wiki/Bracket#Angle_brackets) |
+| " "     | Double [quote](https://en.wikipedia.org/wiki/Quotation_mark); commonly used to denote a [string literal](https://en.wikipedia.org/wiki/String_literal) |
 | Zelle 2,1     | Zelle 2,2     |
 | Zelle 1,1     | Zelle 1,2     |
 | Zelle 2,1     | Zelle 2,2     |

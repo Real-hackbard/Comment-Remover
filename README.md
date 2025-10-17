@@ -49,7 +49,7 @@ Comments can explain the author's intent – why the code is as it is. Some cont
 ### Line comment for Languages:
 
 | Symbol | Languages | 
-| :-----------: | :-----------: |
+| :-----------: | :----------- |
 | C     | [Fortran](https://en.wikipedia.org/wiki/Fortran) I to Fortran 77 (C in column 1) |
 | Rem   | [BASIC](https://en.wikipedia.org/wiki/BASIC), [Batch files](https://en.wikipedia.org/wiki/Batch_file), [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic) |
 | ::    | [Batch files](https://en.wikipedia.org/wiki/Batch_file), [COMMAND.COM](https://en.wikipedia.org/wiki/COMMAND.COM), [cmd.exe](https://en.wikipedia.org/wiki/Cmd.exe) |
@@ -57,7 +57,7 @@ Comments can explain the author's intent – why the code is as it is. Some cont
 | ⍝     | [APL;](https://en.wikipedia.org/wiki/APL_(programming_language)) the mnemonic is that the glyph (jot overstruck with shoe-down) resembles a desk lamp, and hence "illuminates" the foregoing. |
 | #     | [Boo](https://en.wikipedia.org/wiki/Boo_(programming_language)), [Bourne shell](https://en.wikipedia.org/wiki/Bourne_shell) and other [UNIX shells](https://en.wikipedia.org/wiki/Unix_shell), [Cobra](https://en.wikipedia.org/wiki/Cobra_(programming_language)), [Perl](https://en.wikipedia.org/wiki/Perl), [Python](https://en.wikipedia.org/wiki/Python_(programming_language)), [Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language)), [Seed7](https://en.wikipedia.org/wiki/Seed7), [PowerShell](https://en.wikipedia.org/wiki/PowerShell), [PHP](https://en.wikipedia.org/wiki/PHP), [R](https://en.wikipedia.org/wiki/R_(programming_language)), [Make](https://en.wikipedia.org/wiki/Make_(software)), [Maple](https://en.wikipedia.org/wiki/Maple_(software)), [Elixir](https://en.wikipedia.org/wiki/Elixir_(programming_language)), [Julia](https://en.wikipedia.org/wiki/Julia_(programming_language)), [Nim](https://en.wikipedia.org/wiki/Nim_(programming_language)) |
 | %     | [TeX](https://en.wikipedia.org/wiki/TeX), [Prolog](https://en.wikipedia.org/wiki/Prolog), [MATLAB](https://en.wikipedia.org/wiki/MATLAB), [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)), [S-Lang](https://en.wikipedia.org/wiki/S-Lang), [Visual Prolog](https://en.wikipedia.org/wiki/Visual_Prolog), [PostScript](https://en.wikipedia.org/wiki/PostScript) |
-| C     | Fortran I to Fortran 77 (C in column 1) |
+| //    | ActionScript, Boo, C (C99), C++, C#, D, F#, Go, Java, JavaScript, Kotlin, Object Pascal (Delphi), Objective-C, PHP, Rust, Scala, Sass, Swift, Xojo, V (Vlang), Zig |
 | C     | Fortran I to Fortran 77 (C in column 1) |
 | C     | Fortran I to Fortran 77 (C in column 1) |
 | C     | Fortran I to Fortran 77 (C in column 1) |

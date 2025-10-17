@@ -137,8 +137,8 @@ Which must be called in the main unit
             end;
 ```
 
-* The command must then be renamed and executeted in the main unit.
+* The command must then be renamed and executed in the main unit.
 ```pascal
-PAS_SetProgressionVisualBasic(Progression);
-      PerCent := PAS_NoCommentsVisualBasic(RichEdit1.Lines);
+   PAS_SetProgressionVisualBasic(Progression);
+   PerCent := PAS_NoCommentsVisualBasic(RichEdit1.Lines);
 ```

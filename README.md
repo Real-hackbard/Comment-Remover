@@ -146,3 +146,25 @@ Which must be called in the main unit
 </br>
 
 ### How can I change the highlight colors:
+To change the highlight colors, open the ```Highlight.pas``` file and modify the following sections.
+
+In these sections, you can define the symbols or commands for highlighting.
+Note: When adding or removing commands, the loop in the lower part of the code must add up to the same number of commands.
+
+```pascal
+  // symbols...
+  CodeC1: array[0..20] of String = ('#','$','(',')','*',',',
+          '.','/',':',';','[',']','{','}','<','>',
+          '-','=','+','''','@');
+
+  // These entries are highlighted by the style..
+  // If there is a change, the loop must be adjusted
+  CodeC2: array[0..44] of String = ('and','as','begin',
+          'case','char','class','const','downto',
+          'else','end','except','finally','for',
+          'forward','function','if','implementation','interface',
+          'is','nil','or','private','procedure','public','raise',
+          'repeat','string','to','try','type','unit','uses','var',
+          'while','external','stdcall','do','until','array','of',
+          'in','shr','shl','cos','div');
+```

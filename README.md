@@ -142,3 +142,7 @@ Which must be called in the main unit
    PAS_SetProgressionVisualBasic(Progression);
    PerCent := PAS_NoCommentsVisualBasic(RichEdit1.Lines);
 ```
+
+</br>
+
+### How can I change the highlight colors:

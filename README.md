@@ -67,5 +67,34 @@ Comments can explain the author's intent – why the code is as it is. Some cont
 | \     | [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language)) |
 | *>    | [COBOL 90](https://en.wikipedia.org/wiki/COBOL) |
 
+</br>
+
+### Delimiter:
+In computing, a delimiter is a [character](https://en.wikipedia.org/wiki/Character_(computing)) or a sequence of characters for specifying the boundary between separate, independent regions in data such as a text file or data stream. For context, data boundaries can be indicated via other means. For example, [declarative notation](https://en.wikipedia.org/wiki/String_literal#Declarative_notation) indicates the length of a field at the start of the field instead of relying on delimiters.
+
+Delimiters are used for a wide range of purposes. The following examples demonstrate a small fraction of their applicability.
+
+### Bracket delimiters:
+Bracket delimiters, also called block delimiters, region delimiters, or balanced delimiters, mark the start and end of a region of text. Commonly used bracket delimiters include:
+
+| Delimiters | Description |
+| :-----------: | :------------ |
+| ( )     | [Parentheses](https://en.wikipedia.org/wiki/Bracket#Parentheses); [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) [code](https://en.wikipedia.org/wiki/Source_code) is cited as recognizable by its use of parentheses |
+| Zelle 2,1     | Zelle 2,2     |
+| Zelle 1,1     | Zelle 1,2     |
+| Zelle 2,1     | Zelle 2,2     |
+| Zelle 1,1     | Zelle 1,2     |
+| Zelle 2,1     | Zelle 2,2     |
+| Zelle 1,1     | Zelle 1,2     |
+| Zelle 2,1     | Zelle 2,2     |
+| Zelle 1,1     | Zelle 1,2     |
+
+
+
+
+
+
+
+
 
 

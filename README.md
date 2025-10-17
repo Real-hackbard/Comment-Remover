@@ -35,6 +35,8 @@ Most languages support multi-line block (a.k.a. stream) and/or single line comme
 
 </br>
 
+![C_example](https://github.com/user-attachments/assets/391e5ddc-8b33-49dd-874c-8b7a54e0d80a)
+
 
 </br>
 

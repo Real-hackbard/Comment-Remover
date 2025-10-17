@@ -198,3 +198,26 @@ Adjust this loop with the number
 
 Then your style name must be entered in the ComboBox of the main unit to call up the colors.  
 Back in the highlight unit, the name and colors must then be entered
+```pascal
+// Styles
+  case Form1.ComboBox1.ItemIndex of
+  0 : style := 'Twilight';
+  1 : style := 'Default';
+  2 : style := 'Ocean';
+  3 : style := 'Classic';
+  4 : style := 'Oldskool';
+  end;
+
+  if Style = 'Twilight' then
+  begin
+    // Colors for the basic setting
+  BackC := clWhite;   // Background Color
+  FontC := clBlack;   // Font Color
+  C1 := clBlack;      // Integer Color
+  C2 := clBlack;      // Comments Color
+  C3 := clBlack;      // function Color
+  strC := clBlue;     // parameter Color
+  strC1 := clGreen;   // brace Color
+  Gray := clGray;     // Comment Color
+  end
+```

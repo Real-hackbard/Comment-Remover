@@ -38,8 +38,8 @@ The flexibility supported by comments allows for a wide degree of content style 
 | [TypeScript](https://en.wikipedia.org/wiki/TypeScript)     | ```//    /*..*/```     | TypeScript (TS) is a [high-level](https://en.wikipedia.org/wiki/High-level_programming_language) programming language that adds static typing with optional type annotations to JavaScript. It is designed for developing large applications. It transpiles to JavaScript. It is developed by Microsoft as free and open-source software released under an Apache License 2.0.     |
 | [Go](https://en.wikipedia.org/wiki/Go_(programming_language))     | ```//    /*..*/```     | Go is a high-level, [general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language) that is statically typed and compiled. It is known for the simplicity of its syntax and the efficiency of development that it enables through the inclusion of a large standard library supplying many needs for common projects.     |
 | [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language))     | ```//    /*..*/```     | Rust is a general-purpose programming language which emphasizes performance, type safety, concurrency, and [memory safety](https://en.wikipedia.org/wiki/Memory_safety).    |
-| Zelle 1,1     | Zelle 1,2     |
-| Zelle 2,1     | Zelle 2,2     |
+| [Swift](https://en.wikipedia.org/wiki/Swift_(programming_language))     | ```//    /*..*/   /** ... */```     | Swift is a high-level general-purpose, multi-paradigm, compiled programming language created by [Chris Lattner](https://en.wikipedia.org/wiki/Chris_Lattner) in 2010 for Apple Inc. and maintained by the open-source community. Swift compiles to machine code and uses an LLVM-based compiler.      |
+| Zelle 2,1     | Zelle 1,2     | Zelle 1,3     |
 
 </br>
 

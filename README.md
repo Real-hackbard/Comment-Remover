@@ -16,7 +16,7 @@ In computer programming, a comment is text embedded in source code that a transl
 The flexibility supported by comments allows for a wide degree of content style variability. To promote uniformity, style conventions are commonly part of a [programming style](https://en.wikipedia.org/wiki/Programming_style) guide. But, best practices are disputed and contradictory.
 
 ### Features:
-* Remove Comments : Pascal, C/C++, JavaScript, HTML, Python
+* Remove Comments : Pascal, C/C++, JavaScript, HTML, Python, TypeScript, Go, Rust, Swift, C#/Sharp, Powershell, Ruby, Ada, R, Matlab
 * Highlight Code in different Styles
 * Compress Code
 

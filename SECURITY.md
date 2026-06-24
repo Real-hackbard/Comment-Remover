@@ -8,7 +8,7 @@ currently being supported with security updates.
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
-| 1.1.x   | :white_check_mark: Editing Copy Code; Add Programming Langugaes; Fix Highlight Numbers; Export *.rtf; Add Search functions; Load Plain from file |
+| 1.1.x   | :white_check_mark: Editing Copy Code; Add Programming Langugaes; Fix Highlight Numbers; Export *.rtf; Add Search functions; Load Plain from file; Add RichEdit functions |
 
 ## Reporting a Vulnerability
 

@@ -33,6 +33,7 @@ The flexibility supported by comments allows for a wide degree of content style 
 | [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language))     | ```// - (*..*) - {..}```     | Pascal is an imperative and procedural programming language, designed by Niklaus Wirth as a small, efficient language intended to encourage good programming practices using structured programming and data structuring. It is named after French mathematician, philosopher and physicist Blaise Pascal.     |
 | Zelle 2,1     | Zelle 2,2     | Zelle 2,3     |
 
+</br>
 
 Support for code comments is defined by each programming language. The features differ by language, but there are several common attributes that apply throughout.
 

@@ -39,7 +39,7 @@ The flexibility supported by comments allows for a wide degree of content style 
 | [Go](https://en.wikipedia.org/wiki/Go_(programming_language))     | ```//    /*..*/```     | Go is a high-level, [general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language) that is statically typed and compiled. It is known for the simplicity of its syntax and the efficiency of development that it enables through the inclusion of a large standard library supplying many needs for common projects.     |
 | [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language))     | ```//    /*..*/```     | Rust is a general-purpose programming language which emphasizes performance, type safety, concurrency, and [memory safety](https://en.wikipedia.org/wiki/Memory_safety).    |
 | [Swift](https://en.wikipedia.org/wiki/Swift_(programming_language))     | ```//    /*..*/    /**...*/```     | Swift is a high-level general-purpose, multi-paradigm, compiled programming language created by [Chris Lattner](https://en.wikipedia.org/wiki/Chris_Lattner) in 2010 for Apple Inc. and maintained by the open-source community. Swift compiles to machine code and uses an LLVM-based compiler.      |
-| [C#, CSharp](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))     |  ```//    /*..*/    ///```     | C# is a general-purpose high-level programming language supporting multiple paradigms.     |
+| [C#, CSharp](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))     |  ```//    /*..*/  ///```     | C# is a general-purpose high-level programming language supporting multiple paradigms.     |
 | Zelle 2,1     | Zelle 1,2     | Zelle 1,3     |
 
 </br>

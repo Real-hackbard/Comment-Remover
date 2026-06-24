@@ -30,7 +30,7 @@ The flexibility supported by comments allows for a wide degree of content style 
 # Languages
 | Name | Command | Description |
 | :----------- | :----------- | :----------- |
-| [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language))     | ```// - (*..*) - {..}```     | Pascal is an imperative and [procedural](https://en.wikipedia.org/wiki/Procedural_programming) programming language, designed by Niklaus Wirth as a small, efficient language intended to encourage good programming practices using structured programming and data structuring. It is named after French mathematician, philosopher and physicist Blaise Pascal.     |
+| [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language))     | ```// - (*..*) - {..}```     | Pascal is an imperative and [procedural](https://en.wikipedia.org/wiki/Procedural_programming) programming language, designed by [Niklaus Wirth](https://en.wikipedia.org/wiki/Niklaus_Wirth) as a small, efficient language intended to encourage good programming practices using structured programming and data structuring. It is named after French mathematician, philosopher and physicist Blaise Pascal.     |
 | [C/C++](https://en.wikipedia.org/wiki/C_(programming_language))     | ```// - /*..*/```     | C/C++ is a general-purpose programming language created in the 1970s by Dennis Ritchie. By design, C gives the programmer relatively direct access to the features of the typical CPU architecture, customized for the target instruction set.     |
 | Zelle 2,1     | Zelle 2,2     | Zelle 2,3     |
 
